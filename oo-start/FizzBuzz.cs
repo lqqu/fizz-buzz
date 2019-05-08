@@ -22,6 +22,7 @@ namespace oo_start
 
         public string calculate()
         {
+            if (i < 1 || i > 100) return "Invalid number";
             if (i % 3 == 0 && i % 5 != 0) return fizz;
             if (i % 3 != 0 && i % 5 == 0) return buzz;
             if (i % 3 != 0 || i % 5 != 0) return i.ToString();

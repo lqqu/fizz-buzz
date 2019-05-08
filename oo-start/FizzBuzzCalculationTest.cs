@@ -52,5 +52,18 @@ namespace oo_start
             }
         }
         
+        [Fact]
+        public void  should_return_error_message_when_the_number_is_not_in_range_1_to_100() 
+        {
+            for (int i = -100; i <= 200; i++)
+            {
+                if (i < 1 || i > 100)
+                {
+                    Assert.Equal("Invalid number", new FizzBuzz(i).calculate());
+                }
+            }
+        }
+        
+        
     }
 }
