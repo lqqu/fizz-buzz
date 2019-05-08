@@ -14,7 +14,11 @@
     },
     "frameworks": {
       "netcoreapp2.2": {
-        "projectReferences": {}
+        "projectReferences": {
+          "/Users/lqqu/RiderProjects/oo/FizzBuzz/FizzBuzz.csproj": {
+            "projectPath": "/Users/lqqu/RiderProjects/oo/FizzBuzz/FizzBuzz.csproj"
+          }
+        }
       }
     },
     "warningProperties": {

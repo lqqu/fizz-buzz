@@ -13,7 +13,7 @@ namespace oo_start
             {
                 if (i % 3 == 0 && i % 5 != 0)
                 {
-                    Assert.Equal("Fizz", new FizzBuzz(i).calculate());
+                    Assert.Equal("Fizz", new FizzBuzz.FizzBuzz(i).calculate());
                 }
             }
         }
@@ -24,7 +24,7 @@ namespace oo_start
             for (int i = 1; i <= 100; i++)
             {
                 if (i % 3 == 0 || i % 5 == 0) continue;
-                Assert.Equal(i.ToString(), new FizzBuzz(i).calculate());
+                Assert.Equal(i.ToString(), new FizzBuzz.FizzBuzz(i).calculate());
             }
         }
 
@@ -35,7 +35,7 @@ namespace oo_start
             {
                 if (i % 3 != 0 && i % 5 == 0)
                 {
-                    Assert.Equal("Buzz", new FizzBuzz(i).calculate());
+                    Assert.Equal("Buzz", new FizzBuzz.FizzBuzz(i).calculate());
                 }
             }
         }
@@ -47,7 +47,7 @@ namespace oo_start
             {
                 if (i % 3 == 0 && i % 5 == 0)
                 {
-                    Assert.Equal("FizzBuzz", new FizzBuzz(i).calculate());
+                    Assert.Equal("FizzBuzz", new FizzBuzz.FizzBuzz(i).calculate());
                 }
             }
         }
@@ -59,7 +59,7 @@ namespace oo_start
             {
                 if (i < 1 || i > 100)
                 {
-                    Assert.Equal("Invalid number", new FizzBuzz(i).calculate());
+                    Assert.Equal("Invalid number", new FizzBuzz.FizzBuzz(i).calculate());
                 }
             }
         }

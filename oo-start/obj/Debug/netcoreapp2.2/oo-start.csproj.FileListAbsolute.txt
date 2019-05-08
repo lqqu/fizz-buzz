@@ -12,3 +12,6 @@
 /Users/lqqu/RiderProjects/oo/oo-start/obj/Debug/netcoreapp2.2/oo-start.AssemblyInfo.cs
 /Users/lqqu/RiderProjects/oo/oo-start/obj/Debug/netcoreapp2.2/oo-start.dll
 /Users/lqqu/RiderProjects/oo/oo-start/obj/Debug/netcoreapp2.2/oo-start.pdb
+/Users/lqqu/RiderProjects/oo/oo-start/bin/Debug/netcoreapp2.2/FizzBuzz.dll
+/Users/lqqu/RiderProjects/oo/oo-start/bin/Debug/netcoreapp2.2/FizzBuzz.pdb
+/Users/lqqu/RiderProjects/oo/oo-start/obj/Debug/netcoreapp2.2/oo-start.csproj.CopyComplete

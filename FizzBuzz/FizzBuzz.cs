@@ -1,7 +1,7 @@
 using System;
 using System.Collections.Generic;
 
-namespace oo_start
+namespace FizzBuzz
 {
     public class FizzBuzz
     {
@@ -15,9 +15,9 @@ namespace oo_start
         }
 
 
-        public void print()
+        public void print(string str)
         {
-            Console.WriteLine(fizz);
+            Console.WriteLine(str);
         }
 
         public string calculate()
