@@ -13,10 +13,9 @@ namespace oo_start
             {
                 if (i % 3 == 0 && i % 5 != 0)
                 {
-                    Assert.Equal("Fizz", new  FizzBuzz(i).calculate());
+                    Assert.Equal("Fizz", new FizzBuzz(i).calculate());
                 }
             }
-            
         }
 
         [Fact]
@@ -24,10 +23,21 @@ namespace oo_start
         {
             for (int i = 1; i <= 100; i++)
             {
-                if(i % 3==0 || i%5 == 0) continue;
+                if (i % 3 == 0 || i % 5 == 0) continue;
                 Assert.Equal(i.ToString(), new FizzBuzz(i).calculate());
             }
         }
 
+        [Fact]
+        public void should_return_Buzz_when_the_number_is_in_range_1_to_100_and_is_not_3_times_and_is_5_times()
+        {
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i % 3 != 0 && i % 5 == 0)
+                {
+                    Assert.Equal("Buzz", new FizzBuzz(i).calculate());
+                }
+            }
+        }
     }
 }
