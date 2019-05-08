@@ -39,5 +39,18 @@ namespace oo_start
                 }
             }
         }
+        
+        [Fact]
+        public void should_return_FizzBuzz_when_the_number_is_in_range_1_to_100_and_is_3_times_and_is_5_times()
+        {
+            for (int i = 1; i <= 100; i++)
+            {
+                if (i % 3 == 0 && i % 5 == 0)
+                {
+                    Assert.Equal("FizzBuzz", new FizzBuzz(i).calculate());
+                }
+            }
+        }
+        
     }
 }

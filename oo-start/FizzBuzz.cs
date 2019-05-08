@@ -24,10 +24,8 @@ namespace oo_start
         {
             if (i % 3 == 0 && i % 5 != 0) return fizz;
             if (i % 3 != 0 && i % 5 == 0) return buzz;
-            
             if (i % 3 != 0 || i % 5 != 0) return i.ToString();
-            
-            return "";
+            return fizz + buzz;
         }
     }
 }
