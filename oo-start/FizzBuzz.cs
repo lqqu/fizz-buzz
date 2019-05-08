@@ -21,6 +21,7 @@ namespace oo_start
 
         public string calculate()
         {
+            if (i % 3 != 0 || i % 5 != 0) return i.ToString();
             return fizz;
         }
     }
